@@ -4,14 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <a
-          className="App-link"
-          href="https://sachaschwab.github.io/home/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sacha's Githup Page
-      </a>
+      <p>
+          Sacha's Github Page
+        </p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
