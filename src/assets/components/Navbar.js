@@ -4,12 +4,15 @@ import Navbar_item from './Navbar_item';
 export class Navbar extends Component {
 
   render() {
+    const myMenu = ['Analytics', 'AI & Machine Learning', 'NLP', 'iOS & Android']
     return(
-        <div className="Navbar">
-          <Navbar_item item_name="Analytics"/>
-          <Navbar_item item_name="AI & Machine Learning"/>
-          <Navbar_item item_name="NLP"/>
-          <Navbar_item item_name="iOS & Android"/>
+        <div>
+          <button className='hamburger'>m</button>
+          <ul className='Navbar'>
+            {myMenu.map(item => {
+              return <Navbar_item text={item}/>
+            })}
+          </ul>
         </div>
     )
   }
