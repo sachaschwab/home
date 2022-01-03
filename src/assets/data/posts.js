@@ -14,7 +14,7 @@ export const Posts = [
         "language": "R",
         "version": "n/a",
         "text": "Forecasting the Australian Unemployment Rate with Machine Learning and Deep Learning",
-        "url": "https://www.github.com/sachaschwab",
+        "url": "GBM-SVM",
         "category": "machine_learning"
     },
     {
